@@ -1,0 +1,126 @@
+.header-title {
+  color: orange;
+}
+
+.header-container {
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.header-link {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  &:hover {
+    background-color: rgb(212, 90, 90);
+  }
+}
+
+h1 {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 4rem;
+}
+body {
+  background-color: pink;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.categoryItem {
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+  margin: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  &:hover {
+    background-color: rgb(212, 90, 90);
+  }
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-container img {
+  margin: 2rem;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.5; /* Resimlerin başlangıçta soluk görünmesini sağlar */
+  transition: opacity 0.5s ease;
+}
+.image-container img:hover {
+  opacity: 1; /* Fare resmin üzerine geldiğinde resmin tam opak hale gelmesini sağlar */
+}
+.price-tag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.cards h2 {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  max-width: 100%;
+  max-height: 4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.cards:hover h2 {
+  display: block;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.categoryItem {
+  margin: 10px;
+  min-width: 200px;
+  max-width: 300px;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  flex: 0 0 24%;
+  max-width: 24%;
+  margin: 0.5rem;
+}
