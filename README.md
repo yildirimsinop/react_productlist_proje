@@ -8,7 +8,8 @@ App Screenshot
 
 ## Main Features
 
-npm start
+## npm start
+
 Run the app in the development mode by entering npm start in the terminal from the project directory. Open http://localhost:3000 to view the app in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
 ## npm test
@@ -42,7 +43,7 @@ Clone the repository to your local machine and open the HTML file in your prefer
 ## Gif
 
 . horoscope
-<img src = "./horoscope.gif" Alt = "horoscope">
+<img src = "./productsList.gif" Alt = "productsList">
 
 ## Additional Information
 
